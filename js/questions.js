@@ -9,7 +9,7 @@
         let addPadding=question.parentElement.parentElement;
 
         addPadding.classList.toggle("questions_padding--add");
-        question.children[0].classList.toggle("questions_arrow-rotate");
+        question.children[0].classList.toggle("questions_arrow--rotate");
 
         if(answer.clientHeight === 0){
             height=answer.scrollHeight;
