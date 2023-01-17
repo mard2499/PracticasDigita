@@ -304,6 +304,7 @@ body{
 .questions_show{
     text-align: left;
     height: 0;
+    transition: height 0.3;
 }
 
 .questions_img{
