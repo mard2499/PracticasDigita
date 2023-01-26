@@ -3,7 +3,7 @@
 :root{
 
     --padding--conteiner: 100px 0;
-    --color--title:black;
+    --color--title:white;
 
 }
 
@@ -355,4 +355,53 @@ body{
     margin: 0;
     margin-right: 20px;
     flex-wrap: wrap;
+}
+
+.footer_inputs{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.footer_input{
+    background-color: white;
+    height: 50px;
+    display: block;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    margin-right :16px ;
+}
+
+.footer_submit{
+    margin-left: auto;
+    display: inline-block;
+    height: 50px;
+    padding: 0 20px;
+    background-color: yellowgreen;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    border-radius: 6px;
+}
+
+.footer_copy{
+    --padding--container:30px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer_copyright{
+    font-weight: 300;
+}
+
+.footer_icons{
+    display: inline-flex;
+}
+
+.footer_img{
+    width: 30px;
+    
 }
